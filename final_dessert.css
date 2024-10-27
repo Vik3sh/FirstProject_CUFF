@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #e8e9eb;
+    background-size: cover;
+    background-color:#1d1e20;
+    background-position: center;
+    
+}
+section nav{
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    background-color:#f06643c6;
+
+}
+section nav ul{
+    list-style: none;
+    text-align: center;
+
+}
+section nav ul li{
+    display: inline-block;
+    font-size: 21px;
+    margin: 0 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    
+    color: white;
+}
+section nav ul li:hover{
+    color:black ;
+}
+section nav .text .desc{
+    color: #FFB20F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:70px;
+    left:43%;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+
+.fourth{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    background-color: #1d1e20;
+    padding: 50px 0;
+}
+
+
+.fourth .img_box{
+    width: 100%;
+    height: 400px;
+    padding:2 2%;
+    display: flex;
+}
+
+.fourth .img_box .img_card{
+    width: 380px;
+    height: 380px;
+    display: flex;
+    margin:0 auto;
+    border-radius:35px;
+    overflow: hidden;
+
+}
+
+.fourth .img_box .img_card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fourth .img_box .img_card .display_text{
+    width: 380px;
+    height: 380px;
+    border-radius: 35px;
+    position:absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.fourth .img_box .img_card .display_text p{
+    color: #e8e9eb;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 10px #000000;
+    font-size: 23px;
+    font-weight: 550;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fourth .img_box .img_card img{
+   
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+}
+
+.fifth{
+    width: 100%;
+    height: auto;
+    background-color: #1d1e20;
+    padding: 1px 0;
+    
+}
+
+.fifth .img_box1{
+    width: 100%;
+    height: 400px;
+    padding:2 2%;
+    display: flex;
+}
+
+.fifth .img_box1 .img_card1{
+    width: 380px;
+    height: 380px;
+    display: flex;
+    margin:0 auto;
+    border-radius:35px;
+    overflow: hidden;
+
+}
+
+.fifth .img_box1 .img_card1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fifth .img_box1 .img_card1 .display_text1{
+    width: 380px;
+    height: 380px;
+    border-radius: 35px;
+    position:absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+.fifth .img_box1 .img_card1 .display_text1 p{
+    color: #e8e9eb;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 10px #000000;
+    font-size: 23px;
+    font-weight: 550;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fifth .img_box1 .img_card1 img{
+   
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 35px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    border-radius: 8px;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: auto; /* Add overflow for content longer than the popup */
+}
+
+.popup-content {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Other styles remain the same */
+
+/* Other styles remain the same */
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.close:hover {
+    transform: rotate(45deg);
+}
+
+/* Additional styling can be added as needed */
+

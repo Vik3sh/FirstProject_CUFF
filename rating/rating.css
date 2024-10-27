@@ -1,0 +1,9 @@
+/* Add your CSS styles here */
+.rating {
+    margin-bottom: 10px;
+}
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}

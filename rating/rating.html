@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CU FlavorFinder - Reviews</title>
+    <link rel="stylesheet" href="rating.css">
+</head>
+<body>
+    <header>
+        <h1>CU FlavorFinder - Reviews</h1>
+    </header>
+    <main>
+        <section class="category" id="desserts">
+            <h2>Desserts</h2>
+            <div class="rating">
+                <span class="star" onclick="rate(1, 'desserts')">★</span>
+                <span class="star" onclick="rate(2, 'desserts')">★</span>
+                <span class="star" onclick="rate(3, 'desserts')">★</span>
+                <span class="star" onclick="rate(4, 'desserts')">★</span>
+                <span class="star" onclick="rate(5, 'desserts')">★</span>
+            </div>
+            <div class="reviews">
+                <!-- Dessert reviews will be displayed here -->
+                <p>The cakes were average</p>
+            </div>
+        </section>
+        <section class="category" id="sweets">
+            <h2>Sweets</h2>
+            <div class="rating">
+                <span class="star" onclick="rate(1, 'sweets')">★</span>
+                <span class="star" onclick="rate(2, 'sweets')">★</span>
+                <span class="star" onclick="rate(3, 'sweets')">★</span>
+                <span class="star" onclick="rate(4, 'sweets')">★</span>
+                <span class="star" onclick="rate(5, 'sweets')">★</span>
+            </div>
+            <div class="reviews">
+                <!-- Sweet reviews will be displayed here -->
+                <p>Jalebies are good</p>
+            </div>
+        </section>
+        
+        <!-- Add more sections for other food categories as needed -->
+    </main>
+    <script src="rating.js"></script>
+</body>
+</html>
